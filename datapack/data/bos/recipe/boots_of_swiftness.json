@@ -28,7 +28,8 @@
           }
         }
       ],
-      "minecraft:item_name": "Boots of Swiftness"
+      "minecraft:item_name": "Boots of Swiftness",
+      "item_model": "bos:boots_of_swiftness"
     }
   }
 }
