@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "f f",
+    "ibi",
+    "   "
+  ],
+  "key": {
+    "f": "minecraft:feather",
+    "b": "minecraft:leather_boots",
+    "i": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "minecraft:leather_boots",
+    "components": {
+      "minecraft:dyed_color": 5073860,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:movement_speed",
+          "id": "bos:boots_of_swiftness",
+          "amount": 0.03,
+          "operation": "add_value",
+          "slot": "feet",
+          "display": {
+            "type": "override",
+            "value": "Speed Boost"
+          }
+        }
+      ],
+      "minecraft:item_name": "Boots of Swiftness"
+    }
+  }
+}
