@@ -19,7 +19,7 @@
         {
           "type": "minecraft:movement_speed",
           "id": "bos:boots_of_swiftness",
-          "amount": 0.03,
+          "amount": 0.01,
           "operation": "add_value",
           "slot": "feet",
           "display": {

@@ -1,0 +1,30 @@
+{
+    "anvil_cost": 2,
+    "description": "Speed Boost",
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "attribute": "movement_speed",
+                "amount": 0.01,
+                "id": "bos:speed_boost",
+                "operation": "add_value"
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 7,
+        "per_level_above_first": 3
+    },
+    "max_level": 4,
+    "slots": [
+        "armor"
+    ],
+    "min_cost": {
+        "base": 3,
+        "per_level_above_first": 2
+    },
+    "supported_items": [
+        "leather_boots"
+    ],
+    "weight": 10
+}
